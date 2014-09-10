@@ -1,0 +1,110 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+dl {
+    overflow: hidden;
+}
+
+.enterprise {
+    float:left;
+    margin: 0;
+    padding:0;
+    clear: left;
+    width: 8em;
+    
+}
+
+.diet {
+    position:fixed;
+    margin: 0;
+    padding:0;
+    left: 40%;
+    clear: left;
+    
+}
+
+.jurassic {
+    
+    float:left;
+    margin: 0;
+    padding:0;
+    clear: left;
+   
+    
+ 
+}
+
+.herbivore{
+    position: fixed;
+    margin: 0;
+    padding:0;
+    clear: left;
+    top: 45%;
+    left: 40%
+    
+}
+
+.length{
+    position:fixed;
+    margin: 0;
+    padding:0;
+    left: 70%;
+    clear: left;
+}
+
+.M {
+    position: fixed;
+    margin: 0;
+    padding:0;
+    clear: left;
+    top: 45%;
+    left: 70%
+}
+
+    
+p { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    position: fixed;
+    margin: 0 0;
+    padding: 0 8%;
+    top: 23.4%;
+    color: white; 
+    letter-spacing: 0rem; 
+    background: rgba(0, 0, 0, 0.4);
+    
+}
+
+h1 {
+    padding: 2%;
+    font-size: 100%;
+}
