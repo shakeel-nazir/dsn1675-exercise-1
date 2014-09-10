@@ -14,6 +14,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
 }
 
 *, *:before, *:after {
@@ -23,6 +24,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+
 }
 
 img {
@@ -31,76 +33,83 @@ img {
 }
 
 
-dl {
-    overflow: hidden;
-}
-
-.enterprise {
-    float:left;
+.period {
+    position:absolute;
     margin: 0;
-    padding:0;
+    padding:0 0 6%;
     clear: left;
-    width: 8em;
+    width: 30%;
+    color: #A2A2A8;
+    border-right-style: solid;
+    left: 2%;
     
 }
 
 .diet {
-    position:fixed;
+    position:absolute;
     margin: 0;
-    padding:0;
+    padding:0 0 6%;
     left: 40%;
     clear: left;
-    
+    color: #A2A2A8;  
+    border-right-style: solid;
+    width: 25%;
 }
 
 .jurassic {
     
     float:left;
-    margin: 0;
-    padding:0;
-    clear: left;
-   
-    
- 
-}
-
-.herbivore{
-    position: fixed;
+    position: absolute;
     margin: 0;
     padding:0;
     clear: left;
     top: 45%;
-    left: 40%
+    left: 2%;
+    
+}
+
+.herbivore{
+    position:absolute;
+    margin: 0;
+    padding:0;
+    clear: left;
+    top: 45%;
+    left: 40%;
+        
     
 }
 
 .length{
-    position:fixed;
+    position:absolute;
     margin: 0;
-    padding:0;
+    padding:0 0 6%;
     left: 70%;
     clear: left;
+    color: #A2A2A8;
+    
+    
 }
 
 .M {
-    position: fixed;
+    position: absolute;
     margin: 0;
     padding:0;
     clear: left;
     top: 45%;
-    left: 70%
+    left: 70%;
 }
 
     
 p { 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    position: fixed;
+    font-family: "Georgia"; 
+    position: absolute;
     margin: 0 0;
-    padding: 0 8%;
-    top: 23.4%;
+    padding: 0 12%;
+    top: 24%;
     color: white; 
     letter-spacing: 0rem; 
     background: rgba(0, 0, 0, 0.4);
+    font-size: 95%;
     
 }
 
